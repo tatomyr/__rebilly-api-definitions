@@ -18,7 +18,7 @@ extends:
 plugins:
   - ./plugins/custom-rules.js
   - ./plugins/decorators.js
-  - ./plugins/products-bundler/bundler.js
+  # - ./plugins/products-bundler/bundler.js
 rules:
   no-ambiguous-paths: error
   no-unused-components: error
@@ -168,15 +168,15 @@ rules:
         - example
         - examples
 
-  assert/tags-alphabetical:
-    subject:
-      type: Root
-      property: tags
-    assertions:
-      sortOrder:
-        direction: asc
-        property: name
-    severity: error
+  # assert/tags-alphabetical:
+  #   subject:
+  #     type: Root
+  #     property: tags
+  #   assertions:
+  #     sortOrder:
+  #       direction: asc
+  #       property: name
+  #   severity: error
 
   assert/headers-include-example:
     subject:

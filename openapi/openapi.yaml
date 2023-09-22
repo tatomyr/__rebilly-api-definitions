@@ -1,7 +1,7 @@
 openapi: 3.0.3
 info:
   version: "latest"
-  title: Rebilly API (modified)
+  title: Rebilly API
   contact:
     name: "Rebilly API Support"
     url: "https://www.rebilly.com/contact/"
